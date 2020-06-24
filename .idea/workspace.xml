@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18093c7-fdba-49e5-8d53-b737ecc0982d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_RS/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_RS/app/create_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_RS/check_params/check_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_RS/serve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_cart_RS/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_cart_RS/app/create_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_cart_RS/serve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_cart_rs/check_params/check_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_cart_rs/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_cart_rs/docker/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage_RS/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage_RS/app/create_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage_RS/check_params/check_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage_RS/serve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_auth_RS/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_auth_RS/app/create_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_auth_RS/check_params/check_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_auth_RS/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_auth_RS/config/ini/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_auth_RS/serve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/config/ini/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/docker/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/docker/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/exceptions/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/rest/email_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/rest/email_rest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_RS/services/email_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/services/email_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/config/ini/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/docker/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/docker/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/cart_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/cart_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/item_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/item_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/mappers/cart_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/mappers/cart_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/mappers/item_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/mappers/item_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/exceptions/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/rest/cart_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/rest/cart_rest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/rest/item_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/rest/item_rest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/rest/user_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/rest/user_rest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/cart_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/email_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/email_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/item_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/item_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/config/ini/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/docker/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/docker/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/cart_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/cart_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/item_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/item_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/mappers/cart_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/mappers/cart_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/mappers/item_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/mappers/item_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/exceptions/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/model/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/model/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/model/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/model/item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/repositories/cart_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/repositories/cart_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/repositories/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/repositories/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/repositories/item_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/repositories/item_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/rest/cart_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/rest/cart_rest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/rest/item_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/rest/item_rest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/services/cart_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/services/cart_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage_RS/services/item_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/services/item_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/auth.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/docker/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/dtos/mappers/user_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/dtos/mappers/user_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/dtos/user_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/dtos/user_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/exceptions/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/model/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/repositories/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/repositories/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/repositories/user_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/repositories/user_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/rest/user_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/rest/user_rest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth_RS/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/services/user_service.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bMI7CL5sem7KahZjeD3wzAqIfG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ShoppingCartAPI" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\email_rs" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\storage_rs" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs\auth" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS\docker" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS\config\ini" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.storage_RS (serve)">
+    <configuration name="email_RS" type="PythonConfigurationType" factoryName="Python">
+      <module name="shoppingServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="email_RS" />
+        <env name="FLASK_ENV" value="development" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\matias.moratti\PycharmProjects\shoppingServices\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run -p 6000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shopping_cart_RS (serve)" type="PythonConfigurationType" factoryName="Python">
+      <module name="shoppingServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="shopping_cart_rs" />
+        <env name="FLASK_ENV" value="development" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\matias.moratti\PycharmProjects\shoppingServices\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shopping_cart_rs" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shopping_cart_rs/serve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shopping_cart_RS" type="PythonConfigurationType" factoryName="Python">
+      <module name="shoppingServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="shopping_cart_rs" />
+        <env name="FLASK_ENV" value="development" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\matias.moratti\PycharmProjects\shoppingServices\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="storage_RS (serve)" type="PythonConfigurationType" factoryName="Python">
+      <module name="shoppingServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="storage_RS" />
+        <env name="FLASK_ENV" value="development" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\matias.moratti\PycharmProjects\shoppingServices\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/storage_rs" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/storage_rs/serve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="storage_RS" type="PythonConfigurationType" factoryName="Python">
+      <module name="shoppingServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="storage_RS" />
+        <env name="FLASK_ENV" value="development" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\matias.moratti\PycharmProjects\shoppingServices\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run -p 4000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user_auth_RS (serve)" type="PythonConfigurationType" factoryName="Python">
+      <module name="shoppingServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="user_auth_rs" />
+        <env name="FLASK_ENV" value="development" />
+        <env name="AUTH_FILE" value="auth.env" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\matias.moratti\PycharmProjects\shoppingServices\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_auth_rs" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_auth_rs/serve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user_auth_RS" type="PythonConfigurationType" factoryName="Python">
+      <module name="shoppingServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="user_auth_rs" />
+        <env name="FLASK_ENV" value="development" />
+        <env name="AUTH_FILE" value="auth.env" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\matias.moratti\PycharmProjects\shoppingServices\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run -p 3000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.email_RS" />
+      <item itemvalue="Python.shopping_cart_RS" />
+      <item itemvalue="Python.shopping_cart_RS (serve)" />
+      <item itemvalue="Python.storage_RS" />
+      <item itemvalue="Python.storage_RS (serve)" />
+      <item itemvalue="Python.user_auth_RS" />
+      <item itemvalue="Python.user_auth_RS (serve)" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f18093c7-fdba-49e5-8d53-b737ecc0982d" name="Default Changelist" comment="" />
+      <created>1588435365641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588435365641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2415" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592919858015">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2415" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592919858015" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588450768350" />
+    <state x="2640" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592570900017">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2640" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592570900017" />
+    <state x="2690" y="283" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592915806821">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2690" y="283" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592915806821" />
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591364103433">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591364103433" />
+    <state x="2693" y="410" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1589200972828">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2693" y="410" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589200972828" />
+    <state x="2898" y="112" width="900" height="714" key="#xdebugger.evaluate" timestamp="1592917478824">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2898" y="112" width="900" height="714" key="#xdebugger.evaluate/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592917478824" />
+    <state x="1154" y="101" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1589136053358" />
+    <state width="1132" height="466" key="DebuggerActiveHint" timestamp="1592398031081">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1132" height="466" key="DebuggerActiveHint/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592398031081" />
+    <state width="1136" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589136566432" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1592919764507">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592919764507" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1592920215954">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1592920215954">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1592920215954">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1592920215954">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1592920208481">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284342" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1592920208481">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1592920208481">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1592920208481">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
+    <state x="2177" y="100" width="1600" height="708" key="SettingsEditor" timestamp="1591272329515">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2177" y="100" width="1600" height="708" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591272329515" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1592917464870">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592917464870" />
+    <state x="0" y="0" width="1294" height="737" key="dock-window-1" timestamp="1592072278661">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="1294" height="737" key="dock-window-1/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592072278661" />
+    <state x="2576" y="252" width="610" height="536" key="find.popup" timestamp="1592831907312">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2576" y="252" width="610" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592831907312" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592155179755">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592155179755" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user_auth_rs/repositories/user_repository.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/user_rest.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user_auth_rs/rest/user_rest.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/user_rest.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/user_rest.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user_auth_rs/rest/user_rest.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/services/item_service.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/dtos/mappers/item_mapper.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/item_service.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/item_rest.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/services/item_service.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/item_rest.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/item_rest.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/item_rest.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/item_service.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/email_rs/services/email_service.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/email_rs/rest/email_rest.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/cart_rest.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/cart_rest.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/cart_rest.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/cart_rest.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/cart_rest.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user_auth_rs/rest/user_rest.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user_auth_rs/rest/user_rest.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/cart_rest.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/cart_rest.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user_auth_rs/rest/user_rest.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/item_rest.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/rest/item_rest.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/services/item_service.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/repositories/item_repository.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/item_rest.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/__init__.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/rest/item_rest.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/dtos/mappers/item_mapper.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/__init__.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/__init__.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/config/config.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shopping_cart_rs/serve.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/config/config.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/storage_rs/serve.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user_auth_rs/config/config.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

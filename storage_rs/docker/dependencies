@@ -1,0 +1,4 @@
+Flask==1.1.1
+Mongo==0.2.0
+requests==2.23.0
+flask-mongoengine==0.9.5

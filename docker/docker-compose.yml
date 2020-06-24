@@ -1,0 +1,27 @@
+version: '2'
+
+services:
+  shopping_cart_rs:
+    image: shopping_cart_rs
+    ports:
+      - "5000:5000"
+  user_auth_rs:
+    image: user_auth_rs
+    ports:
+      - "3000:3000"
+    depends_on:
+      - user_db
+  email_rs:
+    image: email_rs
+    ports:
+      - "2000:2000"
+  storage_rs:
+    image: storage_rs
+    ports:
+      - "4000:4000"
+    depends_on:
+      - storage_db
+  storage_db:
+    image: mongo
+  user_db:
+    image: mongo

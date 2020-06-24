@@ -2,85 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18093c7-fdba-49e5-8d53-b737ecc0982d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email_RS/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email_RS/app/create_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email_RS/check_params/check_params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email_RS/serve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart_RS/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart_RS/app/create_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart_RS/serve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart_rs/check_params/check_params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart_rs/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart_rs/docker/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage_RS/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage_RS/app/create_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage_RS/check_params/check_params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage_RS/serve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_auth_RS/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_auth_RS/app/create_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_auth_RS/check_params/check_params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_auth_RS/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_auth_RS/config/ini/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_auth_RS/serve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/config/ini/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/docker/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/docker/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/exceptions/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/rest/email_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/rest/email_rest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_RS/services/email_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_rs/services/email_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/config/ini/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/docker/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/docker/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/docker/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/cart_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/cart_dto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/item_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/item_dto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/mappers/cart_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/mappers/cart_mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/dtos/mappers/item_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/dtos/mappers/item_mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/exceptions/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/rest/cart_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/rest/cart_rest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/rest/item_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/rest/item_rest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/rest/user_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/rest/user_rest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/cart_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/cart_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/email_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/email_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/item_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/item_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_cart_RS/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/user_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/config/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/config/ini/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/docker/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/docker/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/cart_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/cart_dto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/item_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/item_dto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/mappers/cart_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/mappers/cart_mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/dtos/mappers/item_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/dtos/mappers/item_mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/exceptions/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/model/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/model/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/model/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/model/item.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/repositories/cart_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/repositories/cart_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/repositories/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/repositories/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/repositories/item_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/repositories/item_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/rest/cart_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/rest/cart_rest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/rest/item_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/rest/item_rest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/services/cart_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/services/cart_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_RS/services/item_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage_rs/services/item_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/auth.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/docker/dependencies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/dtos/mappers/user_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/dtos/mappers/user_mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/dtos/user_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/dtos/user_dto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/exceptions/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/model/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/repositories/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/repositories/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/repositories/user_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/repositories/user_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/rest/user_rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/rest/user_rest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth_RS/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth_rs/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,45 +272,45 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592919764507" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1592920215954">
+    <state width="1899" height="358" key="GridCell.Tab.0.bottom" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="358" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1592920215954">
+    <state width="1899" height="358" key="GridCell.Tab.0.center" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="358" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1592920215954">
+    <state width="1899" height="358" key="GridCell.Tab.0.left" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="358" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1592920215954">
+    <state width="1899" height="358" key="GridCell.Tab.0.right" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920215954" />
+    <state width="1899" height="358" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1592920208481">
+    <state width="1899" height="358" key="GridCell.Tab.1.bottom" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="358" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284342" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1592920208481">
+    <state width="1899" height="358" key="GridCell.Tab.1.center" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="358" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1592920208481">
+    <state width="1899" height="358" key="GridCell.Tab.1.left" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="358" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1592920208481">
+    <state width="1899" height="358" key="GridCell.Tab.1.right" timestamp="1593001832966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592920208481" />
+    <state width="1899" height="358" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
     <state x="2177" y="100" width="1600" height="708" key="SettingsEditor" timestamp="1591272329515">
       <screen x="1920" y="0" width="1920" height="1040" />

@@ -23,5 +23,13 @@ services:
       - storage_db
   storage_db:
     image: mongo
+    volumes:
+      - storage_db:/data/db
   user_db:
     image: mongo
+    volumes:
+      - user_db:/data/db
+
+volumes:
+  storage_db:
+  user_db:

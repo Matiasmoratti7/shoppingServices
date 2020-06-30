@@ -11,4 +11,4 @@ ENV FLASK_ENV development
 
 EXPOSE 2000
 
-CMD python serve.py
+CMD python service.py

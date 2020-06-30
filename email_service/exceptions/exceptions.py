@@ -4,7 +4,7 @@ class EmailServerError(Exception):
         self.message = "Email server general error"
 
 
-class ParamsError(Exception):
+class KafkaServerError(Exception):
 
     def __init__(self, message):
         self.message = message

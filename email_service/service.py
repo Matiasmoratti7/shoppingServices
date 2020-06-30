@@ -3,6 +3,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from exceptions import exceptions
 from config import config
+from kafka_service import kafka_consumer
+import time
 
 EMAIL_SERVER = smtplib.SMTP_SSL()
 
@@ -28,3 +30,20 @@ def send_email(subject, body):
         raise exceptions.EmailServerError()
 
     del msg
+
+
+if __name__ == "__main__":
+    messages = []
+    while True:
+        try:
+            messages.extend(kafka_consumer.consume_messages())
+            while messages:
+                msg = messages.pop()
+                send_email(msg['subject'], msg['body'])
+        except Exception:
+            # Log error and sleep for 2 minutes
+            time.sleep(120)
+        else:
+            time.sleep(60)
+
+

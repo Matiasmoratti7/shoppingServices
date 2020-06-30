@@ -15,7 +15,7 @@ def get_kafka_producer():
                                            auto_offset_reset='earliest',
                                            consumer_timeout_ms=1000)
         except Exception:
-            raise exceptions.KafkaServerError("Error when trying to connect to Kafka Server")
+            raise exceptions.CustomError("Error when trying to connect to Kafka Server")
     return kafka_instance
 
 

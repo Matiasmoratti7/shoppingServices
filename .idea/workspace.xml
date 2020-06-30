@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18093c7-fdba-49e5-8d53-b737ecc0982d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker/vars.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_service/docker/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_service/kafka_service/kafka_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_cart_rs/kafka_service/kafka_producer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/check_params/check_params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_service/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/email_service/config/ini/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/email_service/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/docker/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/exceptions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_service/exceptions/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/rest/email_rest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/serve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_rs/services/email_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_service/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_rs/config/ini/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/config/ini/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_rs/docker/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/docker/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_rs/serve.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/serve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_cart_rs/services/email_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_cart_rs/services/email_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +47,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ShoppingCartAPI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../event_tracking_api" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\email_rs" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs\auth" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS\docker" />
+      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\email_rs" />
       <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs" />
       <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\storage_rs" />
       <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices" />
       <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs" />
-      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\user_auth_rs\auth" />
-      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS\docker" />
-      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS" />
-      <recent name="C:\Users\matias.moratti\PycharmProjects\shoppingServices\shopping_cart_RS\config\ini" />
     </key>
   </component>
   <component name="RunManager" selected="Python.storage_RS (serve)">
@@ -239,10 +254,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2415" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592919858015">
+    <state x="2415" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593438659954">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2415" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592919858015" />
+    <state x="2415" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593438659954" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588450768350" />
     <state x="2640" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592570900017">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -270,54 +285,54 @@
     </state>
     <state width="1132" height="466" key="DebuggerActiveHint/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592398031081" />
     <state width="1136" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589136566432" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1592919764507">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1593459448594">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592919764507" />
-    <state width="1899" height="358" key="GridCell.Tab.0.bottom" timestamp="1593001832966">
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593459448594" />
+    <state width="1899" height="358" key="GridCell.Tab.0.bottom" timestamp="1593281747145">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747145" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="358" key="GridCell.Tab.0.center" timestamp="1593001832966">
+    <state width="1899" height="358" key="GridCell.Tab.0.center" timestamp="1593281747144">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747144" />
     <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="358" key="GridCell.Tab.0.left" timestamp="1593001832966">
+    <state width="1899" height="358" key="GridCell.Tab.0.left" timestamp="1593281747144">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747144" />
     <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="358" key="GridCell.Tab.0.right" timestamp="1593001832966">
+    <state width="1899" height="358" key="GridCell.Tab.0.right" timestamp="1593281747144">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747144" />
     <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="358" key="GridCell.Tab.1.bottom" timestamp="1593001832966">
+    <state width="1899" height="358" key="GridCell.Tab.1.bottom" timestamp="1593281747145">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747145" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284342" />
-    <state width="1899" height="358" key="GridCell.Tab.1.center" timestamp="1593001832966">
+    <state width="1899" height="358" key="GridCell.Tab.1.center" timestamp="1593281747145">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747145" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="358" key="GridCell.Tab.1.left" timestamp="1593001832966">
+    <state width="1899" height="358" key="GridCell.Tab.1.left" timestamp="1593281747145">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747145" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state width="1899" height="358" key="GridCell.Tab.1.right" timestamp="1593001832966">
+    <state width="1899" height="358" key="GridCell.Tab.1.right" timestamp="1593281747145">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="358" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593001832966" />
+    <state width="1899" height="358" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593281747145" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589138284341" />
-    <state x="2177" y="100" width="1600" height="708" key="SettingsEditor" timestamp="1591272329515">
+    <state x="2235" y="199" width="1600" height="708" key="SettingsEditor" timestamp="1593461765244">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2177" y="100" width="1600" height="708" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591272329515" />
+    <state x="2235" y="199" width="1600" height="708" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593461765244" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1592917464870">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -326,10 +341,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="1294" height="737" key="dock-window-1/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592072278661" />
-    <state x="2576" y="252" width="610" height="536" key="find.popup" timestamp="1592831907312">
+    <state x="2576" y="252" width="610" height="536" key="find.popup" timestamp="1593432832364">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2576" y="252" width="610" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592831907312" />
+    <state x="2576" y="252" width="610" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593432832364" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592155179755">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -414,12 +429,12 @@
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/email_rs/services/email_service.py</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/email_service/service.py</url>
+          <line>26</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/email_rs/rest/email_rest.py</url>
+          <url>file://$PROJECT_DIR$/email_service/rest/email_rest.py</url>
           <line>9</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
@@ -587,6 +602,11 @@
           <url>file://$PROJECT_DIR$/user_auth_rs/config/config.py</url>
           <line>10</line>
           <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/email_service/kafka_service/kafka_consumer.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

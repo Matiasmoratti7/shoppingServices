@@ -6,17 +6,20 @@ from config import config
 from kafka_service import kafka_consumer
 import time
 
-EMAIL_SERVER = smtplib.SMTP_SSL()
+STAGE = '/ini/config.ini'
 
 
 def set_server():
-    global EMAIL_SERVER
-    EMAIL_SERVER = smtplib.SMTP_SSL(host=config.configs.email_host, port=465)
-    EMAIL_SERVER.login(config.configs.sender_email, config.configs.sender_pswd)
+    try:
+        server = smtplib.SMTP_SSL()
+        server = smtplib.SMTP_SSL(host=config.configs.email_host, port=465)
+        server.login(config.configs.sender_email, config.configs.sender_pswd)
+    except Exception:
+        raise exceptions.CustomError("Error when trying to login to {}".format(config.configs.sender_email))
+    return server
 
 
-def send_email(subject, body):
-
+def send_email(server, subject, body):
     msg = MIMEMultipart()
     msg['From'] = config.configs.sender_email
     msg['To'] = config.configs.manager_email
@@ -25,25 +28,35 @@ def send_email(subject, body):
     msg.attach(MIMEText(body, 'plain'))
 
     try:
-        EMAIL_SERVER.send_message(msg)
+        server.send_message(msg)
     except Exception:
-        raise exceptions.EmailServerError()
+        raise exceptions.CustomError("Error when trying to send email")
 
     del msg
 
 
-if __name__ == "__main__":
+def run(config_file):
+    config.set_configs(config_file)
+    email_server = set_server()
+    print("Email service starting...")
     messages = []
     while True:
         try:
+            print("Email service is getting messages from Kafka server")
             messages.extend(kafka_consumer.consume_messages())
+            print("Email service will process {} messages".format(len(messages)))
             while messages:
                 msg = messages.pop()
-                send_email(msg['subject'], msg['body'])
-        except Exception:
-            # Log error and sleep for 2 minutes
+                send_email(email_server, msg['subject'], msg['body'])
+            print("Email service finished processing new messages")
+        except exceptions.CustomError as error:
+            print(error.message)
             time.sleep(120)
         else:
             time.sleep(60)
+
+
+if __name__ == "__main__":
+    run(config_file=STAGE)
 
 

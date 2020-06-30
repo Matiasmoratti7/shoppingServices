@@ -39,9 +39,9 @@ def flask_app():
     def handle_bad_request(error):
         raise CustomError(error.description, 400)
 
-    # Start email service thread
-    email_thread = threading.Thread(target=email_service.start_service)
-    email_thread.start()
+    # Start email service thread (old implementation)
+    """email_thread = threading.Thread(target=email_service.start_service)
+    email_thread.start()"""
 
     app.run(host='0.0.0.0', port=config.configs.port)
 
